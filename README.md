@@ -36,7 +36,7 @@ In one transaction, 10 USDC will be deposited into Mercurial to form LP, and the
 > out upon withdrawal. Over the long-term profits accrue and you end up with
 > more.
 
-# Withdrawal
+## Withdrawal
 
 ![](./ystaking/withdraw.jpeg)
 
@@ -53,3 +53,22 @@ Once the protocol completes the withdrawal, the LP tokens would arrive in your w
 From the dropdown menu, you can choose which asset you want to exit the LP into:
 
 ![](./ystaking/unstake-LP.jpeg)
+
+## Mint PAI
+
+You can use your yToken as collateral to borrow Parrot's stablecoin PAI. Visit [parrot.fi/vaults](parrot.fi/vaults), and select any of the supported yToken vaults. Currently there are two:
+
+- Yield MER LP wUSD4Pool
+- Yield SBR LP USDT-USDC
+
+Click on "mint":
+
+![](./ystaking/ytoken-vault-select.jpeg)
+
+Then input the amount of yToken you want to deposit, and the amount of PAI you want to borrow:
+
+![](./ystaking/ytoken-mint-pai.jpeg)
+
+Once you've minted PAI, you can go to [PNG.fi](https://app.png.fi/swap) to trade PAI for different assets.
+
+To repay PAI, see the [PAI Repayment guide](https://doc.parrot.fi/guide/pai.html#repay-pai).
